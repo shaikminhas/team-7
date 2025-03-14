@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # flutter_application_1
+=======
+# untitled1
+>>>>>>> 62ea1fe (Added my folder)
 
 A new Flutter project.
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 void main() {
   runApp(const MyApp());
@@ -120,6 +121,22 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+import 'login_screen.dart';
+
+void main() {
+  runApp(GymApp());
+}
+
+class GymApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Gym Store',
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: LoginScreen(),
+>>>>>>> 62ea1fe (Added my folder)
     );
   }
 }
